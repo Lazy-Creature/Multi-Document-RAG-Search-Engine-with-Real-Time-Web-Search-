@@ -86,8 +86,7 @@ Stores sensitive API keys securely and is excluded from version control.
 
 ### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/your-username/GA02-Hybrid-RAG.git
-cd GA02-Hybrid-RAG
+git clone 
 ```
 
 2️⃣ Create Virtual Environment
