@@ -33,17 +33,43 @@ This architecture is inspired by Microsoft Copilot, Google NotebookLM, and Perpl
 
 
 ---
+## 📦 Module Descriptions
+
+### app.py
+Handles the Streamlit user interface, PDF upload, document indexing, chat input, and displays AI responses with clean source information.
+
+### config.py
+Loads and manages Groq and Tavily API keys securely from the `.env` file.
+
+### loader.py
+Loads documents from multiple sources such as PDFs, text files, and Wikipedia using LangChain document loaders.
+
+### chunker.py
+Splits large documents into smaller overlapping chunks to improve embedding accuracy and retrieval performance.
+
+### vector_store.py
+Generates embeddings for document chunks and stores them in the FAISS vector database for semantic search.
+
+### router.py
+Classifies user queries into Document, Web, or Hybrid search categories.
+
+### web_search.py
+Fetches real-time information from the internet using Tavily web search API.
+
+### rag_engine.py
+Implements the Hybrid RAG logic that retrieves document and/or web context, applies intelligent fallback, and generates grounded AI responses using the Groq LLM.
+
+### requirements.txt
+Contains all required Python dependencies needed to run the project.
+
+### .env
+Stores sensitive API keys securely and is excluded from version control.
+
+---
 
 ## 🛠 Tech Stack
 
-| Layer        | Technology           |
-|-------------|----------------------|
-| Frontend    | Streamlit            |
-| LLM         | Groq (LLaMA 3.3)     |
-| Vector DB   | FAISS                |
-| Embeddings  | HuggingFace          |
-| Web Search  | Tavily               |
-| Orchestration | LangChain          |
+<img width="321" height="220" alt="image" src="https://github.com/user-attachments/assets/26339d40-dd73-4f61-9e2e-9908aad64ea6" />
 
 
 ---
