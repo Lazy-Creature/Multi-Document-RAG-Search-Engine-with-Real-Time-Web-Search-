@@ -36,14 +36,15 @@ This architecture is inspired by Microsoft Copilot, Google NotebookLM, and Perpl
 
 ## 🛠 Tech Stack
 
-| Layer | Technology |
-|------|------------|
-Frontend | Streamlit |
-LLM | Groq (LLaMA 3.3) |
-Vector DB | FAISS |
-Embeddings | HuggingFace |
-Web Search | Tavily |
-Orchestration | LangChain |
+| Layer        | Technology           |
+|-------------|----------------------|
+| Frontend    | Streamlit            |
+| LLM         | Groq (LLaMA 3.3)     |
+| Vector DB   | FAISS                |
+| Embeddings  | HuggingFace          |
+| Web Search  | Tavily               |
+| Orchestration | LangChain          |
+
 
 ---
 
