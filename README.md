@@ -75,21 +75,26 @@ GA02/
 ```bash
 git clone https://github.com/your-username/GA02-Hybrid-RAG.git
 cd GA02-Hybrid-RAG
-
+```
 
 2️⃣ Create Virtual Environment
+```bash
 python -m venv venv
 venv\Scripts\activate
-
+```
 3️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
-
+```
 4️⃣ Create .env
+```bash
 GROQ_API_KEY=your_groq_api_key_here
 TAVILY_API_KEY=your_tavily_api_key_here
-
+```
 5️⃣ Run Application
+```bash
 streamlit run app.py
+```
 
 
 <img width="772" height="478" alt="image" src="https://github.com/user-attachments/assets/82f90cad-f826-43b4-bedd-82ec0df4ee2c" />
