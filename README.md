@@ -76,22 +76,8 @@ Stores sensitive API keys securely and is excluded from version control.
 
 ## 📂 Project Structure
 
-GA02/
-│
-├── app.py
-├── requirements.txt
-├── .env
-│
-├── backend/
-│ ├── config.py
-│ ├── loader.py
-│ ├── chunker.py
-│ ├── vector_store.py
-│ ├── web_search.py
-│ ├── rag_engine.py
-│ └── router.py
-│
-└── data/uploads/
+<img width="217" height="451" alt="image" src="https://github.com/user-attachments/assets/f822075f-0546-48ba-8288-c42f9922f826" />
+
 
 
 ---
